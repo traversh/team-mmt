@@ -14,13 +14,16 @@ I've synced the latest revision to the repository. Please sync up the latest fil
 - HTML Structure for base pages.
 - Footer
 
-<b>Matthew Lowe (Other cool Matthew)</b>
+<b>Matthew Lowe</b>
 - Book information (to be passed to Matthew)
 - The home page (Structure is there, just add to it. However make sure you work inbetween the article_container divs)
+- Sitemap
 
-<b>Travers Houghton (That guy)</b>
+<b>Travers Houghton</b>
 - The about page (Structure is there, just add to it. However make sure you work inbetween the article_container divs)
 - The contact page (Structure is there, just add to it. However make sure you work inbetween the article_container divs)
 
 <b>Work to pick from</b>
-- Cart page
+- Cart page.
+- Javascript functionality. Discuss what you want to add and where.
+- Testing site on different browsers.
