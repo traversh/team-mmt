@@ -1,0 +1,152 @@
+body
+{
+  background-color: #ffc65c;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+#clear {
+    clear: both;
+}
+
+html , body{height:100%;}
+
+#wrapper
+{
+	margin-left: 125px;
+	margin-right: 125px;
+	min-width: 1102px;
+}
+
+#header, #nav, #article, #footer
+{
+	border: 1px solid transparent;
+}
+
+#header
+{
+	background-color: rgba(0, 0, 0, 0.12);
+	background-image:url(images/header.jpg) stretch;
+}
+
+#nav
+{
+	background-color: whitesmoke;
+	padding: 10px 5px 10px 5px;
+}
+
+#nav ul
+{
+	list-style: none;
+	width:100%;
+	padding:0; 
+	margin:0;
+}
+
+#nav li
+{
+	display: inline;
+}
+
+#nav li a
+{
+	padding: 8px 10px 8px 10px;
+	background-color: rgb(228, 228, 228);
+	text-decoration: none;
+}
+
+#cart-node
+{
+	float:right;
+}
+
+#article
+{
+	background-color: white;
+	padding: 10px 12px 80px 12px;
+}
+
+#article_container
+{
+	background-color: rgb(232, 232, 232);
+	padding: 6px;
+}
+
+#footer
+{
+	color: rgb(124, 124, 124);
+	background-color: rgb(31, 31, 31);
+	padding: 25px 50px 125px 50px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#footer_container
+{
+	margin: -8px;
+	min-width: 754px;
+	padding-left: 133;
+	padding-right: 133;
+	background-color: rgb(42, 42, 42);
+}
+
+.book-detail-table
+{
+}
+
+.book-table-image
+{
+	display: inline-block;
+}
+
+.td-style-heading
+{
+	min-width: 100px;
+}
+
+.td-style-content
+{
+	
+}
+
+.td-style-description
+{
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.book-description-table {
+	margin-top: 15px;
+	padding: 0px 20 20px 20;
+	border: 2px solid rgb(178, 178, 178);
+	background-color: rgb(249, 249, 249);
+}
+
+.book-detail-table {
+	border: 2px solid rgb(178, 178, 178);
+	padding: 8px;
+	background-color: rgb(249, 249, 249);
+	
+	float: left;
+	margin-right: 8px;
+}
+
+.dv-description-style
+{
+	background-color: white;
+	border: 1px solid rgb(210, 210, 210);
+	padding: 12px;
+}
+
+.book-buynow-table
+{
+	position: absolute;
+	margin-top: 175px;
+}
+
+.div-price 
+{
+	border: 2px solid rgb(178, 178, 178);
+	background-color: rgb(249, 249, 249);
+	padding: 5px 135px 5px 15px;
+	margin-left: -3px;
+}
