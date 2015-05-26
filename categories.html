@@ -1,9 +1,11 @@
 <html>
 <head>
-<link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="ajax.js"></script>
 </head>
 <body>
 
+    <li><a href="#" onclick="loadContent('home.html','article_container');" >Home</a></li>
     
   <div id="article_container">
     <div id="article">
@@ -13,16 +15,16 @@
         <table id="book-category">
             <tbody>
                 <tr>
-                    <td>Theater</td>
-                    <td>Novellas</td>
+                    <td><a href="#" onclick="loadContent('theater.html','article_container');" >Theater</a></td>
+                    <td><a href="#" onclick="loadContent('novellas.html','article_container');" >Novellas</a></td>
                 </tr>
                 <tr>
-                    <td>Epic Poems</td>
-                    <td>Romance</td>
+                    <td><a href="#" onclick="loadContent('epicpoems.html','article_container');" >Epic Poems</a></td>
+                    <td><a href="#" onclick="loadContent('romance.html','article_container');" >Romance</a></td>
                 </tr>
                 <tr>
-                    <td>Social Science Fiction</td>
-                    <td>Modernist</td>
+                    <td><a href="#" onclick="loadContent('socialsciencefiction.html','article_container');" >Social Science Fiction</a></td>
+                    <td><a href="#" onclick="loadContent('modernist.html','article_container');" >Modernist</a></td>
                 </tr>
 
             </tbody>
