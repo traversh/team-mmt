@@ -27,7 +27,8 @@ html , body{height:100%;}
 #header
 {
 	background-color: rgba(0, 0, 0, 0.12);
-	background-image:url(images/header.jpg) stretch;
+	/*background-image: url(images/header.png);*/
+    /*background-repeat: no-repeat;*/
 }
 
 #nav
