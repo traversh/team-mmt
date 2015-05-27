@@ -1,16 +1,39 @@
 <html>
 <head>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="ajax_navagation.js"></script>
+    <!--<script type="text/javascript" src="ajax_navagation.js"></script> -->
+    <script type="text/javascript" src="shopping-cart.js"></script>
 </head>
+    
+
+
 <body>
 
-  <div id="article_container">
-    <div id="article">
-        <h1>Cart</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie lobortis mollis. Praesent nisi nisl, cursus at ultrices sed, posuere et quam. Nunc cursus risus ac urna porttitor, et mattis lorem tempor. Nulla accumsan, purus in consectetur hendrerit, sem nulla consectetur est, vitae molestie massa libero vel ex. Cras eleifend dolor sed ipsum posuere, id sodales nisi blandit. Vivamus finibus, nisl et imperdiet auctor, odio est gravida mi, in porttitor diam leo ut diam. Nulla facilisi. Proin at bibendum dui. Curabitur vitae augue nisi. Duis rutrum, felis vel ultrices sagittis, purus tortor iaculis nibh, eget congue orci odio sed metus. Aenean blandit eros felis, a ornare dolor tincidunt vel. Suspendisse condimentum ut erat non tempus. Nulla vulputate, ex eu ultricies convallis, arcu enim luctus purus, a lobortis eros enim a nulla. Mauris molestie malesuada lectus, eget malesuada velit faucibus vitae.</p>
-       </div> <!-- article -->
-  </div> <!-- article_container -->
+<h1>Add Books to the Shopping Cart</h1>
+<!-- Shopping cart -->
+<div id="txtContainer">
+<!-- Book Area -->
+    <div class="display" id="txtBookInfo">
+Books
+    </div>
+<!-- Shopping Cart Area-->
+    <div class="display">
+        <table align="center">
+            <tr>
+                <td colspan="2"><div id="txtCart">Cart</div></td>
+            </tr>
+            <tr>
+                <td align="right"><input type="button" value="Clear Cart" onclick="clearCart();"/></td>
+                <td align="left"><input type="button" value="Check Out" onclick="checkOut();" /></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        displayBooks();
+        displayCart();
+    </script> 
 
 </body>
 </html>

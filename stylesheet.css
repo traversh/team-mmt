@@ -1,3 +1,16 @@
+/*
+-   Assignment 2 Powell's Book of City Stylesheet
+-   Author : Matthew Hinds - 1423205
+-   Date : 20th May ~ 27th May 2015
+-   Description : Controls the stylesheet of the assignment website.
+*/
+
+/*
+-   Body Styling
+-   Author : Matthew Hinds - 1423205
+-   Description : Does the general tidy work to make sure that each element and div are correctly styled.
+*/
+
 body
 {
     background-color: #ffc65c;
@@ -12,6 +25,15 @@ body
 
 html , body{height:100%;}
 
+#header, #nav, #article, #footer
+{
+	border: 1px solid transparent;
+}
+
+/*
+-   Wrapper Styling
+-   Author : Matthew Hinds - 1423205
+*/
 #wrapper
 {
 	margin-left: 125px;
@@ -19,18 +41,20 @@ html , body{height:100%;}
 	min-width: 1102px;
 }
 
-#header, #nav, #article, #footer
-{
-	border: 1px solid transparent;
-}
 
+/*
+-   Header Styling
+-   Author : Matthew Hinds - 1423205
+*/
 #header
 {
 	background-color: rgba(0, 0, 0, 0.12);
-	/*background-image: url(images/header.png);*/
-    /*background-repeat: no-repeat;*/
 }
 
+/*
+-   Navigation Styling
+-   Author : Matthew Hinds - 1423205
+*/
 #nav
 {
 	background-color: whitesmoke;
@@ -57,11 +81,45 @@ html , body{height:100%;}
 	text-decoration: none;
 }
 
+/*
+-   Cart Styling
+-   Author : Matthew Hinds - 1423205
+*/
+
 #cart-node
 {
 	float:right;
 }
 
+.display{background-color:#CCC; 
+         color:#036;
+	     border:#900 1px solid;
+		 overflow:auto;
+		 display: inline-block;
+		 vertical-align:top;
+		 margin-left:10px;
+		 margin-right:10px;}
+			 
+#txtContainer{white-space:nowrap; 
+              text-align:center;}
+			 
+#txtBookInfo{width:570px;
+			 height:500px;}
+			 
+#txtCart{width:auto;
+		 height:350px;
+		 vertical-align:top;}
+		 
+#tblBook, #tblCart{ margin-left:10px;
+		  font-family:"Book Antiqua", Palatino, serif; 
+		  font-size:18px;}
+		  
+h1{text-align:center; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:28px; color:#900;}
+
+/*
+-   Article Styling
+-   Author : Matthew Hinds - 1423205
+*/
 #article
 {
 	background-color: white;
@@ -74,6 +132,10 @@ html , body{height:100%;}
 	padding: 6px;
 }
 
+/*
+-   Footer Styling
+-   Author : Matthew Hinds - 1423205
+*/
 #footer
 {
 	color: rgb(124, 124, 124);
@@ -92,6 +154,10 @@ html , body{height:100%;}
 	background-color: rgb(42, 42, 42);
 }
 
+/*
+-   Product page Styling
+-   Author : Matthew Hinds - 1423205
+*/
 .book-detail-table
 {
 }
@@ -154,6 +220,10 @@ html , body{height:100%;}
 	margin-left: -3px;
 }
 
+/*
+-   Category Styling
+-   Author : Matthew Hinds - 1423205
+*/
 #book-category td 
 {
   border: 1px solid black;
