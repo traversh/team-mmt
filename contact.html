@@ -2,13 +2,50 @@
 <head>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="ajax_navagation.js"></script>
+    <script type="text/javascript" src="email_verification.js"></script>
+
 </head>
 <body>
 
   <div id="article_container">
     <div id="article">
-        <h1>Contact</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie lobortis mollis. Praesent nisi nisl, cursus at ultrices sed, posuere et quam. Nunc cursus risus ac urna porttitor, et mattis lorem tempor. Nulla accumsan, purus in consectetur hendrerit, sem nulla consectetur est, vitae molestie massa libero vel ex. Cras eleifend dolor sed ipsum posuere, id sodales nisi blandit. Vivamus finibus, nisl et imperdiet auctor, odio est gravida mi, in porttitor diam leo ut diam. Nulla facilisi. Proin at bibendum dui. Curabitur vitae augue nisi. Duis rutrum, felis vel ultrices sagittis, purus tortor iaculis nibh, eget congue orci odio sed metus. Aenean blandit eros felis, a ornare dolor tincidunt vel. Suspendisse condimentum ut erat non tempus. Nulla vulputate, ex eu ultricies convallis, arcu enim luctus purus, a lobortis eros enim a nulla. Mauris molestie malesuada lectus, eget malesuada velit faucibus vitae.</p>
+        <h1>Contact Us</h1>
+        <p align="center">
+        We see you have chosen to contact us, if you are looking to get a specific member of our team, please include their name inside your message.
+        </p>
+        <form  onsubmit="validate_form(this)" method="post">
+        	<table align="center">
+            	<tr>
+                	<td>First Name:</td>
+                    <td><input type="text" name="first_name"></td>
+                </tr>
+                <tr>
+                	<td>Last Name:</td>
+                    <td><input type="text" name="last_name"></td>
+                </tr>
+                <tr>
+                	<td>Country:</td>
+                    <td><input type="text" name="country"></td>
+                </tr>
+                <tr>
+                	<td>Email Address:</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                	<td>Message:</td>
+                    <td><textarea cols="50" rows="5">
+    Please input your Message or Question here
+    </textarea></td>
+                </tr>
+                <tr>
+                	<td><input type="reset" value="Reset"></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+        <p align="center">
+        Thank you for sending us a message, we strive to try and respond to emails within 14 hours.
+        </p>
        </div> <!-- article -->
   </div> <!-- article_container -->
 
