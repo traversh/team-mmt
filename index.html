@@ -2,6 +2,7 @@
 <head>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="ajax.js"></script>
+    <script type="text/javascript" src="theme_change.js"></script>
 </head>
 <body onload="loadContent('home.html', 'article_container');">
 
@@ -29,6 +30,8 @@
   <div id="footer_container">
       <div id="footer">
           <p>This website is fake and was created by students for an assignment at <a href="http://www.unitec.ac.nz/current-students/" target="new">Unitec</a> by Matthew Hinds, Matthew Lowe and Travers Houghton.</p>
+          <input type="button" value="Theme 1" onClick="changeCSS('stylesheet.css');">
+          <input type="button" value="Theme 2" onclick="changeCSS('styleSheet2.css');">
       </div> <!-- footer -->
   </div> <!-- footer_container -->
 
